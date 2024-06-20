@@ -1,0 +1,105 @@
+.wallet *{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.wallet .cover{
+    height: 100%;
+    width: 100%;
+    background-color: #ecf7ee ;
+    
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.4)),url(image.jpeg); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;  
+    
+}
+
+.wallet .form-box{
+    width: 360px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(198, 222, 198, 0.972);
+    opacity: 0.9;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 40px;
+
+}
+
+
+.wallet .title-box{
+    width: 100px;
+    height: 35px auto;
+    position: relative;
+    top: 25px;
+    left: 80px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 100px;
+   margin-left: 50px ;
+}
+
+.wallet .toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background:transparent ;
+    border:0;
+    outline:none;
+    position: relative;   
+}
+
+.wallet #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #0f9031, #0fc23e);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-group{
+    top: 140px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.input-field{
+    font-size: larger;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    margin-top: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+span{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 15px;
+    
+    background: linear-gradient(to right, #0f9031, #0fc23e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+

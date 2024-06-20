@@ -1,0 +1,63 @@
+.manager-profile *{
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.manager-profile {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background: #ecf7ee;  
+    color: #000;
+    letter-spacing: 0.5px;
+}
+
+
+.manager-profile .student-profile .card {
+    border-radius: 10px;
+    background: rgba(198, 222, 198, 0.972);
+
+}
+
+.manager-profile .submit-btn{
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;   
+    background: linear-gradient(to right, #0f9031, #0fc23e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.manager-profile .student-profile .card .card-header .profile_img {
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 5px solid rgb(241, 244, 241);
+    border-radius: 50%;
+}
+
+.manager-profile .student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.manager-profile .student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.manager-profile .student-profile .table th,
+.manager-profile .student-profile .table td {
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #000;
+}
